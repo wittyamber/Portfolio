@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <!-- FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <!-- CSS -->
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
 <body>
     <!-- HEADER DESIGN -->
     <header class="header">
-        <a href="a" class="logo">JM.Bausing</a>
-
+        <a href="#" class="logo"><span class="logo-span">J</span><span class="logo-span">M</span></a>
         <i class="fa-solid fa-bars" id="menu-icon"></i>
-
         <nav class="navbar">    
             <a href="#home" class="active">Home</a>
             <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -28,19 +27,17 @@
 
     <!-- HOME SECTION DESIGN -->
     <section class="home" id="home">
-        <div class="home_content">
+        <div class="home-content">
             <h3>Hello, Welcome</h3>
             <h1>I'm Juana Mae</h1>
             <h3>And I'm an <span>IT Student</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quam. Quos, numquam harum eius illum aut repudiandae voluptas ex ullam nemo! Molestias cupiditate dolorem consequuntur veniam esse accusantium blanditiis nihil?</p>
-
+            <p>Welcome to my portfolio! I'm Juana Mae, a second-year IT student passionate about technology. I’m currently learning Java, PHP, Android Studio, HTML, CSS, SQL databases, and Firebase. In my free time, I enjoy reading books and staying updated with the latest trends. Explore my portfolio to learn more about my skills, projects, and interests.</p>
             <div class="social-media">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-
         <div class="home-img">
             <img src="assets/pic1.png" alt="Profile picture">
         </div>
@@ -51,17 +48,281 @@
         <div class="about-img">
             <img src="assets/pic2.png" alt="About Image">
         </div>
-
         <div class="about-content">
             <h2 class="heading">ABOUT <span>Me</span></h2>
             <h3>IT Student</h3>
-
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores officia, animi dolore neque soluta dignissimos blanditiis sequi quidem illum eveniet. Earum, deserunt! Explicabo illum qui architecto ex quisquam quam repellendus inventore consequuntur dolorem, accusamus perspiciatis eveniet? Vero nemo maxime aut iste ipsam? Autem dolor obcaecati eum, dignissimos quia suscipit doloremque.</p>
-            
+            <p>Hi! I'm Juana Mae, a passionate and dedicated Information Technology student currently in my second year of study. I am pursuing a Bachelor of Science in Information Technology, where I have developed a strong foundation in various programming languages and technologies. My current areas of study include Java, PHP, Android Studio, HTML, CSS, SQL databases, and Firebase. My journey in IT has been incredibly rewarding, and I am continuously striving to improve my skills and knowledge.</p>
+            <p>In addition to my academic pursuits, I am also an avid reader and enjoy spending my free time diving into books. Whether it's fiction, non-fiction, or technical literature, I find great joy in exploring new ideas and perspectives. I also love staying connected with the world through social media, where I keep up with the latest trends and developments in technology and beyond.</p>
+            <p>I believe that my combination of technical skills, creativity, and a keen interest in learning will help me make a significant impact in the field of Information Technology. I am excited about the opportunities that lie ahead and look forward to contributing to innovative projects and collaborating with like-minded individuals.</p>
+            <p>Thank you for visiting my portfolio. Feel free to explore my projects and get in touch if you'd like to learn more or collaborate on exciting IT ventures!</p>
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
 
-    <script src="JS/main.js"></script>
+    <!-- SKILLS SECTION DESIGN -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-row">
+                <div class="col technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="each-skills">
+                        <div class="candidate">
+                            <div class="parcial">
+                                <div class="info">
+                                    <div class="name">HTML</div>
+                                    <div class="percent-num">56%</div>
+                                    <div class="progressBar">
+                                        <div class="percent" style="width: 56%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="parcial">
+                                <div class="info">
+                                    <div class="name">CSS</div>
+                                    <div class="percent-num">41%</div>
+                                </div>
+                                <div class="progressBar">
+                                    <div class="percent" style="width: 41%;"></div>
+                                </div>
+                            </div>
+    
+                            <div class="parcial">
+                                <div class="info">
+                                    <div class="name">JavaScript</div>
+                                    <div class="percent-num">8%</div>
+                                </div>
+                                <div class="progressBar">
+                                    <div class="percent" style="width: 8%;"></div>
+                                </div>
+                            </div>
+    
+                            <div class="parcial">
+                                <div class="info">
+                                    <div class="name">Java</div>
+                                    <div class="percent-num">51%</div>
+                                </div>
+                                <div class="progressBar">
+                                    <div class="percent" style="width: 51%;"></div>
+                                </div>
+                            </div>
+    
+                            <div class="parcial">
+                                <div class="info">
+                                    <div class="name">PHP</div>
+                                    <div class="percent-num">16%</div>
+                                </div>
+                                <div class="progressBar">
+                                    <div class="percent" style="width: 16%;"></div>
+                                </div>
+                            </div>
+    
+                            <div class="parcial">
+                                <div class="info">
+                                    <div class="name">MySQL</div>
+                                    <div class="percent-num">18%</div>
+                                </div>
+                                <div class="progressBar">
+                                    <div class="percent" style="width: 18%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col professional-skills">
+                    <h3>Professional Skills</h3>
+                    <ul class="prof-progress">
+                        <li>
+                            <div class="mh-progress mh-progress-circle" data-progress="89"></div>
+                            <div class="prof-skill-name">Communication</div>
+                        </li>
+                        
+                        <li>
+                            <div class="mh-progress mh-progress-circle" data-progress="70"></div>
+                            <div class="prof-skill-name">Team Work</div>
+                        </li>
+    
+                        <li>
+                            <div class="mh-progress mh-progress-circle" data-progress="82"></div>
+                            <div class="prof-skill-name">Project Management</div>
+                        </li>
+    
+                        <li>
+                            <div class="mh-progress mh-progress-circle" data-progress="54"></div>
+                            <div class="prof-skill-name">Creativity</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            
+            <!-- Project Card 1 -->
+            <div class="portfolio-box">
+                <img src="assets/Calculator.png" alt="Project 1">
+                <h3>Calculator</h3>
+                <p>A very simple calculator that create in Android Studio.</p>
+                <a href="assets/Calculator1.png" class="btn">View Project</a>
+            </div>
+            
+            <!-- Project Card 2 -->
+            <div class="portfolio-box">
+                <img src="assets/idonate.png" alt="Project 2">
+                <h3>iDonate</h3>
+                <p>iDonate is a database project where a system for donating blood.</p>
+                <a href="assets/iDonate Presentation.pdf" class="btn">View Project</a>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="portfolio-box">
+                <img src="assets/learnpot.png" alt="Project 3">
+                <h3>Learn Pot</h3>
+                <p>Learn Pot is an application about recipes where you can learn new delicious recipes.</p>
+                <a href="assets/learnpot1.png" class="btn">View Project</a>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="portfolio-box">
+                <img src="assets/techlclaim.png" alt="Project 4">
+                <h3>TechClaim</h3>
+                <p>TechClaim is a departmental billing application where the students of Department of Technical Program (DTP)  would pay the contribution of every activities of the department.</p>
+                <a href="https://tinyurl.com/4s5btsvu" class="btn">View Project</a>
+            </div>
+            
+            <!-- Certificate Card 1 -->
+            <div class="portfolio-box">
+                <img src="assets/design.jpg" alt="Certificate 1">
+                <h3>Designing Presentation Slides</h3>
+                <p>This certificate given by Department of Information and Communication Technology with a 6 hours training.</p>
+                <a href="assets/design.jpg" class="btn">View Certificate</a>
+            </div>
+            
+            <!-- Certificate Card 2 -->
+            <div class="portfolio-box">
+                <img src="assets/ms_product_tool.jpg" alt="Certificate 2">
+                <h3>Microsoft Productivity Tools</h3>
+                <p>This certificate given by Department of Information and Communication Technology with a 6 hours training.</p>
+                <a href="assets/ms_product_tool.jpg" class="btn">View Certificate</a>
+            </div>
+
+            <!-- Certificate Card 3 -->
+            <div class="portfolio-box">
+                <img src="assets/nav_google.jpg" alt="Certificate 3">
+                <h3>Navigating Google Workspace</h3>
+                <p>This certificate given by Department of Information and Communication Technology with a 12 hours training.</p>
+                <a href="assets/nav_google.jpg" class="btn">View Certificate</a>
+            </div>
+
+            <!-- Certificate Card 4 -->
+            <div class="portfolio-box">
+                <img src="assets/great_learning.png" alt="Certificate 4">
+                <h3>Programming Basics</h3>
+                <p>This certificate given by Great Learning Academy learned a basic programming in Java language.</p>
+                <a href="assets/great_learning.png" class="btn">View Certificate</a>
+            </div>
+
+            <!-- Certificate Card 5 -->
+            <div class="portfolio-box">
+                <img src="assets/freecode.jpg" alt="Certificate 5">
+                <h3>Responsive Web Design</h3>
+                <p>This certificate given by FreeCodeCamp with approximately 300 hours of training.</p>
+                <a href="assets/freecode.jpg" class="btn">View Certificate</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">  
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" id="messae" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i>bausingjuanamae@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Davao del Sur, Philippines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- JS SECTION -->
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+    <script>
+        document.querySelectorAll('.mh-progress-circle').forEach(circle => {
+            let progressValue = circle.getAttribute('data-progress');
+            let bar = new ProgressBar.Circle(circle, {
+                strokeWidth: 6,
+                easing: 'easeInOut',
+                duration: 1400,
+                color: '#e4c1f9',
+                trailColor: '#eee',
+                trailWidth: 1,
+                svgStyle: null,
+                text: {
+                    value: progressValue + '%',
+                    style: {
+                        color: '#fff',
+                        position: 'absolute',
+                        left: '50%',
+                        top: '50%',
+                        padding: 0,
+                        margin: 0,
+                        transform: {
+                            prefix: true,
+                            value: 'translate(-50%, -50%)'
+                        }
+                    }
+                },
+                from: { color: '#aaa', width: 1 },
+                to: { color: '#333', width: 4 },
+                step: (state, circle) => {
+                    circle.path.setAttribute('stroke', state.color);
+                    circle.path.setAttribute('stroke-width', state.width);
+
+                    let value = Math.round(circle.value() * 100);
+                    if (value === 0) {
+                        circle.setText('');
+                    } else {
+                        circle.setText(value + '%');
+                    }
+                }
+            });
+
+            bar.animate(progressValue / 100);
+        });
+
+    </script>
 </body>
 </html>
